@@ -55,7 +55,8 @@ def check_flight(token):
         'bnum': 1,
         'pnum': 1,
         'affily':'picky_us',
-        'adults': 1
+        'adults': 1,
+        'children': 1
     }
 	r = requests.get(link, params=params)
 	data = json.loads(r.text)
